@@ -33,10 +33,6 @@ body {
     background: linear-gradient(to right, #800080, #4b0082);/* Warna background navbar */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Opsional: menambahkan bayangan */
     transition: all 0.6 ease-in-out;
-
-    ul{
-        margin-right: 30px;
-    }
 }
 .underline:hover{
     border-bottom: 1px solid #cbec11;
@@ -304,13 +300,13 @@ a:hover {
     }
     #header-apps{
         margin-top: 10px;
-        margin-left: 70px;  
+        margin-left: 100px;  
     }
     #app-text{
-        margin-left: 70px;
+        margin-left: 100px;
     }
     #app-btn{
-        margin-left: 70px;
+        margin-left: 100px;
     }
     #app-img2{
         width: 385px;
