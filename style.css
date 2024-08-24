@@ -28,11 +28,15 @@ body {
 }
 .navbar-fixed {
     position: fixed;
-    width: 34%;
+    width: 30%;
     z-index: 1000;
     background: linear-gradient(to right, #800080, #4b0082);/* Warna background navbar */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Opsional: menambahkan bayangan */
     transition: all 0.6 ease-in-out;
+
+    ul{
+        margin-right:0px;
+    }
 }
 .underline:hover{
     border-bottom: 1px solid #cbec11;
@@ -268,11 +272,9 @@ a:hover {
     }
     #app-img1{
         width: 500px;
-        border-radius: 48px;
     }
     .bungkus-img{
         overflow: hidden;
-        border-radius: 48px;
     }
     #header-apps{
         margin-left: 80px;
@@ -286,7 +288,6 @@ a:hover {
     #app-img2{
         width: 490px;
         margin-left: -100px;
-        border-radius: 48px;
     }
 
 }
